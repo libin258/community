@@ -44,6 +44,7 @@ public class MapperTests {
 
     @Test
     public void testInsertUser(){
+	//sshsihi
 
         User user = new User();
         user.setUsername("test");
