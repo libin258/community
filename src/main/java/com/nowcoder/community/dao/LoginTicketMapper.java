@@ -4,6 +4,7 @@ import com.nowcoder.community.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 @Mapper
+@Deprecated  // 声明这个Mapper不推荐使用
 public interface LoginTicketMapper {
 
     @Insert({

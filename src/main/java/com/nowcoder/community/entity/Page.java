@@ -60,7 +60,6 @@ public class Page {
     public int getoffset(){
         //current * limit - limit
         return (current - 1)*limit;
-
     }
 
     /*
